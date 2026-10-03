@@ -3,88 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/style.css">
     <title>Learning Portfolio</title>
-
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" 
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    
     <header>
-        <h1>Learning Portfolio</h1>        
+
     </header>
-    <main>
-        <section>
-            <h3>About Me</h3>    
-            <div id="about_me">
-                <img src="./media/chanankan_profile.jpg" alt="chanankan_profile" title="chanankan_profile">
-                <p id="me">
-                    ชื่อ-นามสกุล: ชนันท์กานต์ อรชุน<br>
-                    ชื่อเล่น: อ้อม<br>                    รหัสนักศึกษา: 6909617398<br>
-                    มหาวิทยาลัย: มหาวิทยาลัยธรรมศาสตร์<br>
-                    คณะ: วิทยาศาสตร์และเทคโนโลยี<br>
-                    สาขา: วิทยาการคอมพิวเตอร์<br>                
-                </p>
-            </div>
-        </section>
-
-        <section>
-            <h3>What I built</h3>
-            <p>
-                เว็บไซต์นี้สร้างขึ้นเพื่อเป็นโครงสร้างเว็บไซต์หน้าเดียวสำหรับนำเสนอข้อมูลส่วนตัว
-                และสิ่งที่ได้เรียนรู้เกี่ยวกับวิชานี้ และเป็นเว็บไซต์ Learning Portfolio<br>  
-            </p>
-                <strong id="topic">ส่วนประกอบที่สำคัญของเว็บไซต์</strong>
-                <ul id="bullets">
-                    <li>About Me</li>
-                    <li>What I Built</li>
-                    <li>How I Built It</li>
-                    <li>Reflection</li>
-                </ul>
-            <p>
-                นอกจากนี้ ในขณะที่เปิดเว็บไซต์นี้ผ่านเครื่องคอมพิวเตอร์จากไฟล์ HTML จะมีเพียง Client ที่เกิดขึ้นเท่านั้น ไม่มี Server เกิดขึ้น 
-                เพราะเป็นการดึงข้อมูลไฟล์ HTML จากเครื่องมาประมวลผลโดยตรง โดยไม่ต้องส่งคำขอ(Request)ไปหา Server ตัวไหนเลย
-            </p>
-        </section>
-
-        <section>
-            <h3>How I built it</h3>
-            <strong>ขั้นตอนการสร้าง:</strong>
-            <ol>
-                <li>วางโครงสร้าง (Structure): เขียนโครงสร้างของเว็บไซต์ด้วย HTML จากนั้นจัดสัดส่วนข้อมูลและใส่รูปภาพ</li>
-                <li>ตกแต่ง (Decoration): ใช้ CSS ตกแต่งกำหนดฟอนต์ตัวอักษร สีตัวอักษร สีพื้นหลัง และ Layout ของเว็บไซต์</li>
-                <li>ตรวจสอบ (Check): ตรวจสอบความถูกต้องและการทำงานของเว็บไซต์ไม่ให้เกิดปัญหาขึ้นเมื่อเปิดใช้งาน</li>
-               </ol>
-            <strong>เครื่องมือ:</strong>
-            <ul> 
-                <li>Visual Studio Code: ใช้ในการเขียนโค้ดและพัฒนาเว็บไซต์</li>
-                <li>Search Engine: ใช้ในการค้นคว้าหาข้อมูล</li>
-            </ul>
-        </section>
-
-        <section>
-            <h3>Reflection</h3>
-            <strong>ปัญหาและความท้าทายที่พบ</strong>
-            <p class="reflection">
-                การจัด Layout ให้สวยงามและการทำความเข้าใจเส้นทางของไฟล์(Relative Path) 
-                ซึ่งแก้โดยการศึกษาค้นคว้าเพิ่มและทำความเข้าใจเพิ่ม
-            </p>
-            <strong>สิ่งที่เข้าใจเกี่ยวกับการพัฒนาเว็บไซต์มากขึ้น</strong><br>
-            <p class="reflection">
-                ได้เข้าใจในเรื่องของเส้นทางของไฟล์(Relative Path) และโครงสร้างของเว็บไซต์มากขึ้น 
-                ทั้งยังได้โอกาสในการศึกษาค้นคว้าในเรื่อง Semantic HTML และ CSS properties 
-                เพิ่มเติมเพื่อนำมาพัฒนาเว็บไซต์อีกด้วย
-            </p>
-            <strong>สิ่งที่อยากพัฒนาและปรับปรุง</strong>
-            <p class="reflection">
-                อยากพัฒนาและปรับปรุง Layout ให้สวยงามและใส่ลูกเล่นต่างๆ เพราะอยากให้เว็บไซต์มีความน่าสนใจมากขึ้น
-            </p>
-        </section>
+    <main class="container my-3 p-4 rounded-3 border border-1" style="background-color:#f8f8f8;">
+        
     </main>
-    <footer>
-        <p id="footer_p">
-            2026 Chanankan Orachun<br>
-            All rights reserved
-        </p>
-    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" 
+            integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" 
+            crossorigin="anonymous"></script>
 </body>
 </html>
